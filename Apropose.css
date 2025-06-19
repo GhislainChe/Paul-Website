@@ -1,0 +1,137 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.all-line{
+    display: flex;
+    flex-direction: column;
+    height: 110vh;
+}
+
+.tete{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(176, 238, 100);
+    /* font-size: 1.5rem; */
+    height: 70px;
+}
+
+.tete .search form #recherche{
+    padding: 10px;
+    border: 50px solid #db4b4b;
+    border-radius: 29px;
+    height: 25px;
+    font-size: 35px;
+    background-attachment: fixed;
+    border: none;
+}
+
+.tete .search form #recherchez{
+    background-color: #db4b4ba1;
+    border: 1px solid red;
+    border-radius: 4px;
+    /* height: 30px;
+    width: 30px; */
+    text-align: center;
+    padding: 4px;
+    /* display: flex; */
+    /* align-items: center; */
+}
+
+/* span{
+    padding-top: 10px;
+    padding-left: 10px;
+} */
+
+
+/* MAIN CONTENT */
+
+.main-body{
+    display: flex;
+    flex-direction: row;
+    /* margin-top: 30px; */
+    /* padding-top: 30px; */
+    height: 100%;
+}
+
+.main-body .navigation{
+    width: 180px;
+    height: 100%;
+    /* border-right: 3px solid red; */
+    background-color: #a3e0a8;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    box-shadow: 3px 3px 6px #e5e5e5b4;
+}
+
+ol{
+    display: list-item;
+    /* position: relative; */
+    border: none;
+    padding-top: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+li{
+    padding: 0 10px 15px 10px;
+    border: none;
+    font-size: 1.2em;
+    font-family: cursive;
+    text-decoration: none;
+    color: red;
+    font-weight: 800;
+    
+}
+
+.navigation a{
+    text-decoration: none;
+    transition: 7ms;
+    background-color: rgb(127, 255, 144);
+}
+
+.navigation a:hover{
+    text-decoration: underline;
+}
+
+/* CONTENTTS */
+
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.content .welcome{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+    padding-top: 50px;
+}
+
+.h1{
+    text-align: center;
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    text-decoration: underline;
+    display: flex;
+    position: center;
+}
+
+.body {
+    background-attachment: scroll;
+   background-image: url('image/PHOTO1.jpg');
+   display: flex;
+}
