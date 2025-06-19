@@ -16,9 +16,62 @@ body{
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
 }
+
+header{
+    width: 100%;
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    padding: 0 15px;
+}
+
+header .logo h1{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+    /* text-transform: uppercase; */
+}
+
+header .logo h1 span {
+    color: #32ff32;
+
+}
+header .links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+    gap: 20px;
+}
+
+header .links ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+header .links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    /* margin: 0 15px; */
+    transition: all 0.3s ease-in-out;
+}
+
+header .links ul li a:hover {
+    color: #32ff32;
+    /* text-decoration: underline; */
+}
+
 
 
 
