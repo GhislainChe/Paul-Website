@@ -3,7 +3,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/view-kids-practicing-health-wellness-activity.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/view-kids-practicing-health-wellness-activity.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
